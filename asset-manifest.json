@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Dynamisk-sida/static/css/main.d96db4d6.css",
+    "main.js": "/React-Dynamisk-sida/static/js/main.07548b68.js",
+    "static/js/453.54132038.chunk.js": "/React-Dynamisk-sida/static/js/453.54132038.chunk.js",
+    "static/media/gmail.png": "/React-Dynamisk-sida/static/media/gmail.00cad07fc47e95dab520.png",
+    "static/media/chad.jpg": "/React-Dynamisk-sida/static/media/chad.1d32675ed57cb021ca7b.jpg",
+    "static/media/Loading-symbol.png": "/React-Dynamisk-sida/static/media/Loading-symbol.10d047c858061493c936.png",
+    "static/media/GitHub-Emblem.png": "/React-Dynamisk-sida/static/media/GitHub-Emblem.1b6bd0e4b6626baba753.png",
+    "static/media/Linkedin-Logo.png": "/React-Dynamisk-sida/static/media/Linkedin-Logo.84ff5bc4d0bfac9a0558.png",
+    "index.html": "/React-Dynamisk-sida/index.html",
+    "main.d96db4d6.css.map": "/React-Dynamisk-sida/static/css/main.d96db4d6.css.map",
+    "main.07548b68.js.map": "/React-Dynamisk-sida/static/js/main.07548b68.js.map",
+    "453.54132038.chunk.js.map": "/React-Dynamisk-sida/static/js/453.54132038.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d96db4d6.css",
+    "static/js/main.07548b68.js"
+  ]
+}
