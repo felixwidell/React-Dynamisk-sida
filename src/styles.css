@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-bottom: 0px;
+    border: solid rgb(48, 48, 48) 2px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .23rem;
+}
+
+.nav li.active {
+    background-color: #555;
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+.smallProfileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.projectsImg {
+    height: 60%;
+    margin-left: 20px;
+}
+
+.educationImg {
+    height: 45%;
+    margin-left: 20px;
+}
+
+.workImg {
+    height: 65%;
+    margin-left: 20px;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutContainer h2 {
+    color: black;
+}
+
+.aboutContainer a {
+    color: black;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.changeButton {
+    color: black;
+    background-color: transparent;
+    transition: transform .2s;
+    border-color: transparent;
+    font-size: 7px;
+}
+
+.changeButton:hover {
+    transform: scale(1.2);
+}
+
+.repoWrapper {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+}
+
+.repoListElement {
+    margin-top: auto;
+}
+
+.repoList {
+    list-style: none;
+    height: 80px;
+    width: 25vw;
+    background-color: #d9d9d9;
+    transition: transform .2s;
+    border-radius: 5px;
+    padding: 0;
+    margin: 1rem;
+}
+
+.repoList:hover {
+    transform: scale(1.05);
+    background-color: #bebdbd;
+}
+
+.repoList a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.loadingContainer {
+    margin-top: 10vh;
+}
+
+.loading {
+    height: 15vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .loading {
+      animation: loading-logo-spin infinite 3s linear;
+    }
+  }
+
+  @keyframes loading-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.jsonBox {
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+.footerContainer {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.footerContainer h3 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 0px;
+}
+
+.footerContainer a {
+    height: 100%;
+}
+
+.footerGit {
+    height: 100%;
+    margin-right: 20px;
+}
+
+.footerLinkedin {
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footerGmail {
+    height: 55%;
+    margin-right: 3px;
+}

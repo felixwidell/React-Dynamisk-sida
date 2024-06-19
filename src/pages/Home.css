@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+body h1 {
+    color: rgb(255, 255, 255);
+}
+
+body h2 {
+    color: rgb(255, 255, 255);
+}
+
+body a {
+    color: rgb(255, 255, 255);
+}
+
+.homeContainer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.homeAboutFlexBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeAboutFlexBox a {
+    color: black;
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.homeAboutMeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.homeAboutMeContainer img {
+    height: 100%;
+}
+
+.homeAboutMeContainer h2 {
+    color: black;
+    margin-right: 15px;
+    margin-left: 10vw;
+}
+
+
+.profileContainer h2 {
+    padding-right: 10rem;
+}
+
+.profilePic {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 200px;
+}
+
+.wave {
+    width: 40%;
+    height: 100px;
+}

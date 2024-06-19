@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Cocredx",
+        "content": "Utvecklade en app för cocredx under 6 veckor med react native"
+    },
+    {
+        "id": 2,
+        "title": "RALF",
+        "content": "Gjorde UAT testning för Richardson's Foods hemsida i Irland under 3 veckor"
+    },
+    {
+        "id": 3,
+        "title": "SALT Bootcamp",
+        "content": "2 månader intensiv .NET fullstack kurs som inkluderade javascript, TTD, HTML css, UX"
+    },
+    {
+        "id": 4,
+        "title": "LIA Praktik",
+        "content": "Lia praktik coming soon"
+    }
+]
